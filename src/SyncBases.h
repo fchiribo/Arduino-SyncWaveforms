@@ -67,7 +67,7 @@ public:
 
 	float GetValue() override final
 	{
-		return GetValue(GetElapsed());
+		return GetElapsed();
 	}
 
 	float GetValue(unsigned long elapsedMillis) override final
